@@ -1,16 +1,32 @@
-# notes
+# Flutter Notes App
 
-A new Flutter project.
+This is a **Notes application built with Flutter** that allows users to create, edit, and manage notes efficiently. The app supports both **light and dark themes**, providing a smooth and customizable user experience.  
 
-## Getting Started
+It was developed as part of my learning journey in Flutter, focusing on state management, theming, and building interactive mobile applications.
 
-This project is a starting point for a Flutter application.
+## ✨ Key Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Create & Edit Notes**: Easily add new notes and edit existing ones.  
+- **Delete Notes**: Remove notes that are no longer needed.  
+- **Dark & Light Theme**: Switch between dark and light modes for better readability.  
+- **Persistent Storage**: Notes are saved locally for offline access.  
+- **User-Friendly UI**: Clean and intuitive interface for quick navigation.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Framework**: Flutter  
+- **Language**: Dart  
+- **State Management**: Provider / setState  
+- **Storage**: SharedPreferences / local database (SQLite optional)  
+
+## 🚀 Getting Started
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/harshitmasiwalNotesFlutter.git
+   cd flutter-notes-app
+2. Install dependencies:
+   flutter pub get
+
+3. Run the app:
+   flutter run
